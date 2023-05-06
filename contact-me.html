@@ -85,7 +85,7 @@
         </div><img src="images/profile_square_400x400.png" width="300" height="300" alt="" class="profile-photo"></div>
       <h2 class="heading-4">Contact Me!</h2>
       <div class="w-form">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" onsubmit="event.preventDefault(); return false;">
 
         <!-- <form id="email-form" name="email-form" data-name="Email Form" class="form"> -->
           <label for="name" class="field-label">Name</label>
