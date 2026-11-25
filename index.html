@@ -1,103 +1,59 @@
-<!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon May 25 2020 21:42:30 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="5ebf59786f5811b624b29885" data-wf-site="5ebf59786f5811b7a9b29884">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
   <title>Brad Vorjohan</title>
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/personal-site-3-690b6f.webflow.css" rel="stylesheet" type="text/css">
-
-
-
-
-<!-- Not from webflow -->
-  <meta name="description" content="Brad Vorjohan, Front-End Engineer" />
-
-  <!-- Twitter data -->
+  <meta name="description" content="Frontend engineer. Passionate about web products and infrastructure.">
+  <meta property="og:title" content="Brad Vorjohan">
+  <meta property="og:description" content="Frontend engineer. Passionate about web products and infrastructure.">
+  <meta property="og:url" content="https://brad-v.me">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Brad Vorjohan">
-  <meta name="twitter:description" content="Brad Vorjohan, Front-End Engineer">
-  <meta name="twitter:creator" content="@bvorjohan">
-  <meta name="twitter:image" content="http://brad-v.me/img/profile_square.png">
-
-  <!-- Open Graph data -->
-  <meta property="og:title" content="Brad Vorjohan" />
-  <meta property="og:url" content="https://brad-v.me" />
-  <meta property="og:image" content="http://brad-v.me/img/profile_square.png" />
-  <meta property="og:description" content="Brad Vorjohan, Front-End Engineer" />
-  <meta property="og:site_name" content="Brad Vorjohan's portfolio website" />
-
-  <!-- Favicon/theme -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/img/manifest.json">
-  <link rel="shortcut icon" href="/img/favicon.ico">
-  <meta name="msapplication-config" content="/img/browserconfig.xml">
-  <meta name="theme-color" content="#24252d">
-<!-- End not from webflow -->
-
-
-
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">
-      WebFont.load({
-        google: {
-          families: ["Nunito:regular"]
-        }
-      });
-    </script>
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">
-      ! function(o, c) {
-        var n = c.documentElement,
-          t = " w-mod-";
-        n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
-      }(window, document);
-    </script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <style>
+    :root { --bg: #fcfcfc; --fg: #1c1c1c; --muted: #6f6f6f; --line: #e4e4e4; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111; --fg: #eee; --muted: #8f8f8f; --line: #2a2a2a; }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 15px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 34rem; margin: 0 auto; padding: 6rem 1.5rem 4rem; }
+    h1 { margin: 0; font-size: 15px; font-weight: 500; }
+    p { margin: 0 0 1rem; }
+    .muted { color: var(--muted); }
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: var(--line);
+      text-underline-offset: 3px;
+      transition: text-decoration-color .15s;
+    }
+    a:hover { text-decoration-color: currentColor; }
+    a:focus-visible { outline: 2px solid var(--fg); outline-offset: 3px; }
+    ul { display: flex; flex-wrap: wrap; gap: 1.25rem; margin: 2rem 0 0; padding: 0; list-style: none; }
+  </style>
 </head>
-<body class="body">
-  <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
-    <div class="w-container"><a href="#" class="w-nav-brand"></a>
-      <nav role="navigation" class="nav-menu w-nav-menu"><a href="index.html" aria-current="page" class="w-nav-link w--current">Home</a><a href="timeline.html" class="w-nav-link">Timeline</a><a href="portfolio.html" class="w-nav-link">Portfolio</a></nav>
-      <div class="w-nav-button">
-        <div class="w-icon-nav-menu"></div>
-      </div>
-    </div>
-  </div>
-  <div class="hero">
-    <div class="container w-container">
-      <div class="header">
-        <div class="div-block">
-          <h1 class="heading-3">Brad Vorjohan</h1>
-          <h2 class="heading-2">Front-End Engineer</h2>
-          <div class="link-container">
-            <a href="https://github.com/bvorjohan" target="_blank" class="link-item">Github</a>
-            <a href="https://twitter.com/bvorjohan" target="_blank" class="link-item">Twitter</a>
-            <a href="https://www.linkedin.com/in/bvorjohan/" target="_blank" class="link-item">Linkedin</a>
-            <a href="mailto:brad@vorjohan.com?subject=I%20Found%20Your%20Website!" class="link-item">Email</a>
-          </div>
-        </div>
-        <img src="images/profile_square_400x400.png" width="300" height="300" alt="" class="profile-photo">
-      </div>
-      <div class="about-me-body">
-        <p>Hello, my name is Brad. I work full-time at <a href="https://buywithprime.amazon.com/" id="link-amazon" target="_blank" class="link">Amazon's Buy with Prime</a> as a Front-End Engineer in Seattle, Washington. In the past, I worked at <a href="https://www.appian.com" id="link-appian" target="_blank" class="link">Appian</a> in the DC area, and at <a href="https://www.bythepeopleapp.com/">By The People</a>, the first citizen lobbying platform!</p>
-        <p>I graduated from Virginia Tech with a degree in Mechanical Engineering in 2016. For about a year and a half I worked as a Structural Design Engineer at Lockheed Martin. In 2018 I transitioned to software and started working as an Application Engineer at Appian.</p>
-        <p>Now I work on Buy with Prime, and have wide-ranging experience working on new features for shopper and merchant UIs, on and off of Amazon.com.</p>
-        <p>Previously I worked at AWS, working on front-end infrastructure and new features for the <a href="https://aws.amazon.com/cloudformation/" target="_blank">CloudFormation</a> Web Console.</p>
-      </div>
-    </div>
-  </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ebf59786f5811b7a9b29884" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+<body>
+  <main>
+    <h1>Brad Vorjohan</h1>
+    <p class="muted">Frontend engineer at Amazon</p>
+
+    <p>Passionate about web products and infrastructure. Right now that means support tools for Amazon sellers. Before that, <a href="https://buywithprime.amazon.com/">Buy with Prime</a> and the <a href="https://aws.amazon.com/cloudformation/">AWS CloudFormation</a> console.</p>
+
+    <p>I started as a mechanical engineer at Lockheed Martin, then moved to software at Appian. Based in Seattle.</p>
+
+    <ul>
+      <li><a href="mailto:brad@vorjohan.com">Email</a></li>
+      <li><a href="https://github.com/bvorjohan">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/bvorjohan/">LinkedIn</a></li>
+    </ul>
+  </main>
 </body>
 </html>
